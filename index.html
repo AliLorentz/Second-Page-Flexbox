@@ -1,0 +1,212 @@
+<!-- Paginas que usaremos para este sitio -->
+<!-- https://www.flaticon.com/ Iconos para la pagina web -->
+<!-- https://fontawesome.com/ Tambien para iconos pero con la exepcion que agregamos un linea de codigo -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Goat Production</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <!-- Aqui arriba colocamos para poder agregar los iconos -->
+  <script src="jquery.js"></script>
+  <!--Con esto agregamos JQuery a la pagina-->
+</head>
+
+<body class="hiden">
+  <div class="centrado" id="onload">
+    <!-- <div class="lds-ring"><div></div><div></div><div></div><div></div></div> -->
+  </div>
+
+  <header>
+    <nav id="nav" class="nav1">
+      <!--Funciona para  Definir un menú de navegación -->
+      <div class="contenedor-nav">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <div class="enlaces" id="enlaces">
+          <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+          <a href="#" id="enlace-equipo" class="btn-header">Equipo</a>
+          <a href="#" id="enlace-servicio" class="btn-header">Servicio</a>
+          <a href="#" id="enlace-trabajo" class="btn-header">Trabajo</a>
+          <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+        </div>
+        <div class="icono" id="open">
+          <span>&#9776;</span>
+          <!--Barra de menu o hamburguesa o 3 lineas-->
+        </div>
+      </div>
+    </nav>
+    <div class="texto">
+      <h1>Goat Production</h1>
+      <h2>Agencia de Desarrollo Web</h2>
+    </div>
+  </header>
+
+  <main>
+    <section class="team contenedor" id="equipo">
+      <h3>Nuestro Equipo</h3>
+      <p class="after">Conoce a la gente asombrosa y creativa</p>
+      <div class="card">
+        <div class="content-card">
+          <div class="people">
+            <img src="img/AlexCGDesign.png" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>k</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="content-card">
+          <div class="people">
+            <img src="img/AlexCGDesign.png" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>k</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="content-card">
+          <div class="people">
+            <img src="img/AlexCGDesign.png" alt="">
+          </div>
+          <div class="texto-team">
+            <h4>k</h4>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="servicio">
+      <div class="contenedor">
+        <h3>Nuestro Servicio</h3>
+        <p class="after">Siempre mejorando para ti</p>
+
+
+        <div class="servicios">
+          <div class="caja-servicios">
+            <img src="img/heart.png" alt="">
+            <h4>Creativo y asombroso</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+          <div class="caja-servicios">
+            <img src="img/responsive.png" alt="">
+            <h4>Adaptable a todos los dispositivos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+          <div class="caja-servicios">
+            <img src="img/coding.png" alt="">
+            <h4>Programacion</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work contenedor" id="trabajo">
+      <h3>Nuestro Trabajo</h3>
+      <p class="after">Hacemos de algo simple algo extraordinario</p>
+      <div class="botones-work">
+        <ul>
+          <li class="filter active" data-nombre='todos'>Todos</li>
+          <li class="filter" data-nombre='diseño'>Diseño</li>
+          <li class="filter" data-nombre='Programacion'>Programacion</li>
+          <li class="filter" data-nombre='marketing'>Marketing</li>
+          <!--Importante para que funcione bien el Jquiery colocar el data-nombre igual a la class de mas abajo-->
+        </ul>
+      </div>
+      <div class="galeria-work">
+        <div class="cont-work Programacion">
+          <div class="img-work">
+            <img src="img/5.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Programacion</h4>
+          </div>
+        </div>
+        <div class="cont-work Programacion">
+          <div class="img-work">
+            <img src="img/5.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Programacion</h4>
+          </div>
+        </div>
+        <div class="cont-work Programacion">
+          <div class="img-work">
+            <img src="img/5.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Programacion</h4>
+          </div>
+        </div>
+        <div class="cont-work diseño">
+          <div class="img-work">
+            <img src="img/4.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Diseño</h4>
+          </div>
+        </div>
+        <div class="cont-work diseño">
+          <div class="img-work">
+            <img src="img/4.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Diseño</h4>
+          </div>
+        </div>
+        <div class="cont-work diseño">
+          <div class="img-work">
+            <img src="img/4.jpeg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Diseño</h4>
+          </div>
+        </div>
+        <div class="cont-work marketing">
+          <div class="img-work">
+            <img src="img/2.jpg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Marketing</h4>
+          </div>
+        </div>
+        <div class="cont-work marketing">
+          <div class="img-work">
+            <img src="img/2.jpg" alt="">
+          </div>
+          <div class="texto-work">
+            <h4>Marketing</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="footer contenedor">
+      <div class="marca-logo">
+        <img src="img/logo.png" alt="">
+      </div>
+      <div class="iconos">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-telegram"></i>
+      </div>
+      <p>La pasion e imnovacion es lo que nos diferencia</p>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="filtro.js"> </script>
+
+  </footer>
+</body>
+
+</html>
