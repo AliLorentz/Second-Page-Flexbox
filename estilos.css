@@ -97,7 +97,7 @@ nav{
   width: 100%;
   position: fixed; /*Menu pegajoso*/
   height: 80px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0,.5); /*Crea una sombra a la caja*/
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0,.5); 
 }
 
 .nav1{/*Se agrega con javaScript*/
@@ -171,7 +171,7 @@ nav .enlaces a:hover{
 
 /*Main*/
 .contenedor{
-  margin: auto;/*¨Para que centre todo*/
+  margin: auto;
   padding: var(--margenes) 0;
   width: 90%;
   max-width: 1000px;
